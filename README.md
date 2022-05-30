@@ -8,8 +8,8 @@ Günümüzde sanal gerçeklik kasklarındaki yenliklere gerçek ve sanal dünyan
 İnce motor kaslarının gelişimini anlayabilmek için fleks sensörleri ile parmak büküm derecesini almaktayız. Objelere yapılan basıncı bmp180 sensörü üzerinden okumaktayız. Böylece elimizin hareket ve uyguladığı basıncı algılayarak doğal kontrolcü elde edebilmek.
 
 # Sensörler
->Fleks
->Bmp180
+> Fleks
+> Bmp180
 
 
 
