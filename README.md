@@ -2,10 +2,10 @@
 
 
 
-Günümüzde sanal gerçeklik kasklarındaki yenliklere gerçek ve sanal dünyanın arasındaki fark iyice azalmıştır. Ancak sanal gerçeklikte kullandığımız kontrolcüler yüzünden insanlar VR’da kendi elleri yerine kullanılması doğal hissettirmeyen kontrolcüler kullanmaktadır. Projemiz sanal gerçeklikte kullanılabilecek bir çift eldiven ve uygulanabilir bir rehabilitasyon yazılımı geliştirmektir. Bu eldivenleri ve sanal gerçeklik kasklarını kullanarak ince motor becerilerini geri kazanabilecekleri bir sanal gerçeklik ortamı oluşturmak ve akıllı eldiven ile basit bir çözüm sağlamaktır.
+Günümüzde sanal gerçeklik kasklarındaki yenliklere gerçek ve sanal dünyanın arasındaki fark iyice azalmıştır. Ancak sanal gerçeklikte kullandığımız kontrolcüler yüzünden insanlar VR’da kendi elleri yerine kullanılması doğal hissettirmeyen kontrolcüler kullanmaktadır. Projemiz sanal gerçeklikte kullanılabilecek bir çift eldiven ve uygulanabilir bir eldiven geliştirmektir. Bu eldivenleri ve sanal gerçeklik kasklarını kullanarak ince motor becerilerini geri kazanabilecekleri bir sanal gerçeklik ortamı oluşturmak ve akıllı eldiven ile basit bir çözüm sağlamaktır.
 
 # Amaç
-İnce motor kaslarının gelişimini anlayabilmek için fleks sensörleri ile parmak büküm derecesini almaktayız. Objelere yapılan basıncı bmp180 sensörü üzerinden okumaktayız. Böylece elimizin hareket ve uyguladığı basıncı algılayarak doğal kontrolcü elde edebilmek.
+İnce motor kaslarının gelişimini anlayabilmek için fleks sensörleri ile parmak büküm derecesini almaktayız. Objelere yapılan basıncı bmp180 sensörü üzerinden okumaktayız. Böylece elimizin hareket ve uyguladığı basıncı algılayarak doğal kontrolcü elde edebilmekteyiz.
 
 # Sensörler
 >Fleks
