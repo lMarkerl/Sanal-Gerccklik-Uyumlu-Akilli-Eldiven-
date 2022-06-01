@@ -22,12 +22,8 @@ Günümüzde sanal gerçeklik kasklarındaki yenliklere gerçek ve sanal dünyan
 |Bmp180      |`obje basıncını ölçmek`            |
 
 
-```mermaid
-sequenceDiagram
-Fleks->Sonuçlar: Parmak büküm derecesi
-Bmp180-> Sonuçlar: Obje'ye uygulanan basınç
 
-```
+
 ```mermaid
 graph LR
 A[Arduino] -- bmp180 --> B((basınç))
