@@ -38,6 +38,8 @@ C --> D
 ## Bmp180 Bacak Bağlantısı
 
 ![Arduino ile BMP180 Basınç Sensörü Kullanımı | roboturka.com |](https://roboturka.com/wp-content/uploads/BMP180_DEVRE.jpg)
+## Arduino bağlantısı
+https://drive.google.com/file/d/1D6FztwYFG-8BkfcYny8YvpVDk-ou5gUI/view?usp=sharing
 
 ## Arduino kodu
 
