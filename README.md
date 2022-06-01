@@ -4,21 +4,17 @@
 
 Günümüzde sanal gerçeklik kasklarındaki yenliklere gerçek ve sanal dünyanın arasındaki fark iyice azalmıştır. Ancak sanal gerçeklikte kullandığımız kontrolcüler yüzünden insanlar VR’da kendi elleri yerine kullanılması doğal hissettirmeyen kontrolcüler kullanmaktadır. Projemiz sanal gerçeklikte kullanılabilecek bir çift eldiven ve uygulanabilir bir rehabilitasyon yazılımı geliştirmektir. Bu eldivenleri ve sanal gerçeklik kasklarını kullanarak ince motor becerilerini geri kazanabilecekleri bir sanal gerçeklik ortamı oluşturmak ve akıllı eldiven ile basit bir çözüm sağlamaktır.
 
-![image](https://user-images.githubusercontent.com/53235575/170985170-2c9f381f-d13e-42db-96b3-6c7a964917cb.png)
-
-
 # Amaç
 İnce motor kaslarının gelişimini anlayabilmek için fleks sensörleri ile parmak büküm derecesini almaktayız. Objelere yapılan basıncı bmp180 sensörü üzerinden okumaktayız. Böylece elimizin hareket ve uyguladığı basıncı algılayarak doğal kontrolcü elde edebilmek.
 
 # Sensörler
-> Fleks
-> Bmp180
+>Fleks
+>Bmp180
 
 
 
 ## Çalışma Prensibi
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
 |        Sensör  |          Amaç                 |
 |----------------|-------------------------------|
@@ -31,8 +27,13 @@ sequenceDiagram
 Fleks->Sonuçlar: Parmak büküm derecesi
 Bmp180-> Sonuçlar: Obje'ye uygulanan basınç
 
-
-
+```
+```mermaid
+graph LR
+A[Arduino] -- bmp180 --> B((basınç))
+A -- fleks --> C(Büküm derecesi)
+B --> D{sonuçlar}
+C --> D
 ```
 
 ## Fleks Bacak Bağlantısı
@@ -91,3 +92,4 @@ Bmp180-> Sonuçlar: Obje'ye uygulanan basınç
 # Labview Block Diagramı
 
 (https://drive.google.com/file/d/1kdnrFIy11vacxkoZHdMA6nYIQtkMTgq2/view?usp=sharing)
+
